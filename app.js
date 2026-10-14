@@ -1,5 +1,5 @@
 let total = 0;
-const afficherConfirmation = false;
+const afficherConfirmation = true;
 const reserveButton = document.querySelector("#reserve");
 const resetButton = document.querySelector("#reset");
 const totalOutput = document.querySelector("#total");
