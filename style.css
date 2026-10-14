@@ -1,7 +1,6 @@
 /* Theme values used by the page. */
 :root {
-    --page-background: #f4f1ea;
-    --page-text: #17223b;
+    --page-background: #17223b; --page-text: #ffffff;
     --accent: #bc743f;
 }
 * { box-sizing: border-box; }
