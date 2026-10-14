@@ -8,7 +8,7 @@ const confirmation = document.querySelector("#confirmation");
 function updatePage() {
     totalOutput.textContent = `Places réservées : ${total}`;
     confirmation.hidden = !afficherConfirmation || total === 0;
-    confirmation.textContent = `Réservation confirmée. Places réservées : ${total}`;
+    confirmation.textContent = `Réservation confirmée — Fabriquez un objet inutile. Places réservées : ${total}`;  
 }
 
 reserveButton.addEventListener("click", () => {
